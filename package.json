@@ -1,0 +1,29 @@
+{
+  "name": "pagina-muestra-de-autos",
+  "version": "1.0.0",
+  "description": "Pagina diseñada para manejar los autos disponibles y mostrarlos desde una base de datos",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/app.js",
+    "test": "test"
+  },
+  "keywords": [
+    "autos",
+    "ecommerce",
+    "login",
+    "mongo",
+    "ejs",
+    "whatsapp"
+  ],
+  "author": "Facundo Barberia",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "connect-mongo": "^5.0.0",
+    "express": "^4.18.2",
+    "express-session": "^1.17.3",
+    "mongodb": "^5.4.0",
+    "mongoose": "^7.1.0"
+  }
+}
